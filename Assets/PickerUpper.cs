@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PickerUpper : MonoBehaviour
 {
     public int count = 0;
     public GameObject particlePrefab;
+
+    public PickerUpper player;
+
+    public Transform Spawnpoint;
+    public GameObject Prefab;
 
     // Start is called before the first frame update
     void Start()
